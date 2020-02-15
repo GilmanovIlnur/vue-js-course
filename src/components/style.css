@@ -1,0 +1,26 @@
+.users {
+    padding: 20px
+  }
+
+  .block {
+    margin-top: 20px;
+  }
+
+.block2{
+    margin-left: 100px;
+    margin-top: 10px;
+    background: rgb(0,29,36);
+    background: linear-gradient(90deg, rgba(0,29,36,1) 0%, rgba(64,121,9,1) 0%, rgba(0,212,255,1) 100%);
+}
+.md-list {
+    width: 320px;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+li{
+    list-style-type: none;
+}
+.title{
+    color: black;
+}
