@@ -1,0 +1,18 @@
+.personal {
+    padding: 20px
+  }
+
+  .block {
+    margin-top: 20px;
+  }
+
+
+.md-list {
+    width: 320px;
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+li{
+    list-style-type: none;
+}
