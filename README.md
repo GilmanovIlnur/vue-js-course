@@ -1,2 +1,3 @@
 # vue-js-course
-с api еще не определился
+буду использовать этот api: https://jsonplaceholder.typicode.com/
+показывать всех пользователей и их посты
