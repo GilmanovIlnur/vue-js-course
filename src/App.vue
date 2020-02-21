@@ -13,7 +13,7 @@
 
         <div class="md-toolbar-row">
           <md-tabs md-sync-route class="md-primary">
-            <md-tab id="tab-rick" to="/" md-label="Пользователи" exact></md-tab>
+            <md-tab id="users" to="/" md-label="Пользователи" exact></md-tab>
           </md-tabs>
         </div>
       </md-app-toolbar>
