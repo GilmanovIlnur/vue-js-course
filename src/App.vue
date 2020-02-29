@@ -14,6 +14,7 @@
         <div class="md-toolbar-row">
           <md-tabs md-sync-route class="md-primary">
             <md-tab id="users" to="/" md-label="Пользователи" exact></md-tab>
+            <md-tab id="photos" to="/photos" md-label="Альбом" exact></md-tab>
           </md-tabs>
         </div>
       </md-app-toolbar>
