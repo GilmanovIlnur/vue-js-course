@@ -2,9 +2,10 @@
     <div>
         <md-field>
             <label>Показать альбом пользователя под id:</label>
-            <md-input v-model="userId"></md-input>
-            <md-button @click="showUserAlbum">Показать</md-button>
+            <md-input name="userId" v-model="userId" v-validate="{ required: true, regex: /^[0-9]+$/ }"></md-input>
+            <md-button @click="showUserAlbum" :disabled="errors.has('userId')">Показать</md-button>
         </md-field>
+        <span v-if="errors.has('userId')">{{errors.first('userId')}}</span>
         <div v-for="album in userAlbums">
             <album :album="album"/>
         </div>
@@ -23,7 +24,7 @@ export default {
     data() {
         return {
             userId: 1,
-            userAlbums: []
+            userAlbums: [],
         }
     },
     created: function () {
