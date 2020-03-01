@@ -5,7 +5,7 @@
             <md-input name="userId" v-model="userId" v-validate="{ required: true, regex: /^[0-9]+$/ }"></md-input>
             <md-button @click="showUserAlbum" :disabled="errors.has('userId')">Показать</md-button>
         </md-field>
-        <span v-if="errors.has('userId')">{{errors.first('userId')}}</span>
+        <span style="color: red" v-if="errors.has('userId')">{{errors.first('userId')}}</span>
         <div v-for="album in userAlbums">
             <album :album="album"/>
         </div>
